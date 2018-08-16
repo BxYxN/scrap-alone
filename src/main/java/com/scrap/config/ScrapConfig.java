@@ -12,6 +12,7 @@ public final class ScrapConfig {
                     .put("HOST", new String[]{"https://www.yapo.cl/"})
                     .put("CATEGORIAS",new String[]{"comprar"} )
                     .put("REGIONES",new String[]{"region_metropolitana"} )
+                    .put("COMUNAS",new String[]{"336"})
                     .put("PRE",new String[]{"/?cmn=%s&o=%s"} ) //?cmn=[comuna]&o=[pagina]
                     .build();
     
